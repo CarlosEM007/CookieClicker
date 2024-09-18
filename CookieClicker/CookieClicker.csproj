@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Cookie.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Img\Cookie.jpg" />
+    <None Remove="Img\Idosa.png" />
+    <None Remove="Img\Ponteiro.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Cookie.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Img\Cookie.jpg" />
+    <Resource Include="Img\Idosa.png" />
+    <Resource Include="Img\Ponteiro.png" />
+  </ItemGroup>
+
+</Project>
